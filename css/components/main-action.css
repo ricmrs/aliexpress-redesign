@@ -1,9 +1,9 @@
 .main-action {
     display: flex;
     color: #D5D5D5;
-    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
     font-size: 12px;
-    line-height: 20px;
+    
 }
 
 .main-action.-arrow::after{

@@ -3,6 +3,7 @@
     width: 240px;
     justify-content: space-between;
     margin-right: 5px;
+    line-height: 20px;
 }
 
 .main-navigation.-full {
