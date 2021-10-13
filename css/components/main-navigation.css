@@ -1,6 +1,6 @@
 .main-navigation {
     display: flex;
-    width: 240px;
+    width: 280px;
     justify-content: space-between;
     margin-right: 5px;
     line-height: 20px;
@@ -9,4 +9,5 @@
 .main-navigation.-full {
     width: 100%;
     margin-right: 0px;
+    margin-top: 26px;
 }

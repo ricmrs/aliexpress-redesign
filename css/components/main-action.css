@@ -8,7 +8,7 @@
 
 .main-action.-arrow::after{
     content: url('https://api.iconify.design/ant-design/down-outlined.svg?color=%23d5d5d5');
-    transform: translate(3px,3px);
+    transform: translate(5px,3px);
 }
 
 .main-action .lang {
