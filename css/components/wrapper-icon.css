@@ -1,0 +1,6 @@
+.wrapper-icon {
+    display: flex;
+    width: 146px;
+    justify-content: space-between;
+    align-items: center;
+}

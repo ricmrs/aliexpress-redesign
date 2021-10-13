@@ -1,0 +1,17 @@
+.main-icon {
+    background: url('https://api.iconify.design/clarity/shopping-cart-line.svg?color=%23d5d5d5') no-repeat center center / contain;
+    width: 28px;
+    height: 28px;
+}
+
+.main-icon.-heart {
+    background: url('https://api.iconify.design/bi/heart.svg?color=%23d5d5d5') no-repeat center center / contain;
+    width: 16px;
+    height: 16px;
+}
+
+.main-icon.-user {
+    background: url('https://api.iconify.design/teenyicons/user-outline.svg?color=%23d5d5d5') no-repeat center center / contain;
+    width: 24px;
+    height: 24px;
+}
