@@ -1,0 +1,32 @@
+.box-offer {
+    display: flex;
+    align-items: center;
+    width: 256px;
+    height: 300px;
+    background-color: #F7F7F7;
+    position: relative;
+}
+
+.box-offer .img {
+    position: absolute;
+    left: 50px;
+    top: 31px;
+}
+
+.box-offer .main-icon {
+    position: absolute;
+    left: 234px;
+    top: 8px;
+}
+
+.box-offer .main-price {
+    position: absolute;
+    left: 8px;
+    top: 267px;
+}
+
+.box-offer .main-percentage {
+    position: absolute;
+    left: 188px;
+    top: 226px;
+}
