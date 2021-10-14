@@ -1,0 +1,14 @@
+.wrapper-offer {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 32px;
+}
+
+.wrapper-offer .full {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 40px;
+}
