@@ -1,0 +1,22 @@
+.box-text {
+    display: inline-flex;
+    width: 670px;
+    height: 310px;
+    color: #000;
+    padding: 45px 12px 12px 20px;
+    background-color: #F7F7F7;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.box-text .main-title {
+    margin-bottom: 30px;
+}
+
+.box-text .main-subtitle {
+    margin-bottom: 94px;
+}
+
+.box-text .img {
+    transform: translateY(20px);
+}
