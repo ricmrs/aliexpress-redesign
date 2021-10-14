@@ -1,0 +1,12 @@
+.main-percentage {
+    border: 5px solid #F03D3F;
+    border-radius: 30px;
+    background-color:#F03D3F;
+    width: 58px;    
+    padding: 14px 6px;
+    box-sizing: border-box;
+    color: #FFF;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+}
