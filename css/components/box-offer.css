@@ -9,8 +9,14 @@
 
 .box-offer .img {
     position: absolute;
-    left: 50px;
-    top: 31px;
+    left: 45px;
+    top: 30px;
+}
+
+.box-offer .img.-position {
+    position: absolute;
+    left: 38px;
+    top: 35px;
 }
 
 .box-offer .main-icon {
