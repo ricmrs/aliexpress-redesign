@@ -1,0 +1,12 @@
+.main-price {
+    color: #F03D3F;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.main-price .stkthrg {
+    color: #3E3E3E;
+    font-weight: 400;
+    font-size: 12px;
+}
