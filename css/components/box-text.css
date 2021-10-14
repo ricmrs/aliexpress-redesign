@@ -1,13 +1,9 @@
 .box-text {
-    display: inline-flex;
     width: 670px;
     height: 310px;
-    color: #000;
     padding: 45px 12px 12px 20px;
     background-color: #F7F7F7;
     box-sizing: border-box;
-    justify-content: space-between;
-    align-items: flex-start;
     position: relative;
 }
 
