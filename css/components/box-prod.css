@@ -1,4 +1,4 @@
-.box-offer {
+.box-prod {
     display: flex;
     align-items: center;
     width: 256px;
@@ -7,31 +7,31 @@
     position: relative;
 }
 
-.box-offer .img {
+.box-prod .img {
     position: absolute;
     left: 45px;
     top: 30px;
 }
 
-.box-offer .img2 {
+.box-prod .img2 {
     position: absolute;
     left: 38px;
     top: 35px;
 }
 
-.box-offer .main-icon {
+.box-prod .main-icon {
     position: absolute;
     left: 234px;
     top: 8px;
 }
 
-.box-offer .main-price {
+.box-prod .main-price {
     position: absolute;
     left: 15px;
     top: 265px;
 }
 
-.box-offer .main-percentage {
+.box-prod .main-percentage {
     position: absolute;
     left: 188px;
     top: 226px;
