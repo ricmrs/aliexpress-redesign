@@ -13,7 +13,7 @@
     top: 30px;
 }
 
-.box-offer .img.-position {
+.box-offer .img2 {
     position: absolute;
     left: 38px;
     top: 35px;
@@ -27,8 +27,8 @@
 
 .box-offer .main-price {
     position: absolute;
-    left: 8px;
-    top: 267px;
+    left: 15px;
+    top: 265px;
 }
 
 .box-offer .main-percentage {

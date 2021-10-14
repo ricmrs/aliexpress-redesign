@@ -21,6 +21,12 @@
     top: 66px;
 }
 
+.box-text .img2 {
+    position: absolute;
+    right: 18px;
+    top: 66px;
+}
+
 .box-text.-small {
     width: 325px;
     padding: 45px 18px 12px 10px;
