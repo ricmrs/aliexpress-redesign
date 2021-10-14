@@ -1,0 +1,8 @@
+.main-banner {
+    background-image: url(../../assets/img/Banner_home.png);
+    height: 500px; 
+    margin-left: 40px; 
+    margin-right: 32px;
+    padding-left: 115px;
+    padding-top: 134px;
+}

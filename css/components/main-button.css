@@ -1,4 +1,14 @@
 .main-button {
+    border: 1px solid #D5D5D5;
+    border-radius: 19px;
+    background-color: #F7F7F7;
+    color: #D5D5D5;
+    font-size: 12px;
+    padding: 11px 63px;
+    box-sizing: border-box;
+}
+
+.main-button.-second {
     display: flex;
     align-items: center;
     line-height: inherit;
@@ -6,9 +16,10 @@
     font-size: 14px;
     color: #3E3E3E;
     background-color: transparent;
+    border: none;
 }
 
-.main-button::before{
+.main-button.-second::before{
     content: url('https://api.iconify.design/ci/menu-alt-02.svg?color=%233e3e3e&height=40&rotate=180deg');
     margin-right: 14px;
     height: 42px;
