@@ -3,6 +3,10 @@
     line-height: 20px;
     color: #65C356;
     font-family: 'Roboto', sans-serif;
+    width: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .main-flash::before {
