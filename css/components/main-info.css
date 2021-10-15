@@ -1,0 +1,38 @@
+.main-info {
+    width: 183px;
+    text-align: center;
+}
+
+.main-info::before {
+    content: url('https://api.iconify.design/cil/cash.svg?color=%23d5d5d5&height=40');
+}
+
+.main-info.-world::before {
+    content: url('https://api.iconify.design/fontisto/world-o.svg?color=%23d5d5d5&height=42');
+}
+
+.main-info.-card::before {
+    content: url('https://api.iconify.design/bi/credit-card-2-front.svg?color=%23d5d5d5&height=40');
+}
+
+.main-info.-questionM::before {
+    content: url('https://api.iconify.design/ci/help-questionmark.svg?color=%23d5d5d5&height=40');
+}
+
+.main-info.-app::before {
+    content: url('https://api.iconify.design/ph/device-mobile.svg?color=%23d5d5d5&height=40');
+}
+
+.main-info .title {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 35px;
+}
+
+.main-info .subtitle {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}
+
