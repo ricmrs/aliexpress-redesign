@@ -24,3 +24,18 @@
     margin-right: 14px;
     height: 42px;
 }
+
+.main-button.-full {
+    width: 100%;
+    height: 60px;
+    border-radius: 14px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-button.-full::after {
+    content: url('https://api.iconify.design/ant-design/down-outlined.svg?color=%23c4c4c4&height=12');
+    transform: translate(4px,2px);
+}
