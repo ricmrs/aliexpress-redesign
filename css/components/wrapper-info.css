@@ -1,0 +1,13 @@
+.wrapper-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 32px;
+}
+
+.wrapper-info .bar {
+    height: 77px;
+    border: 1px solid #D5D5D5;
+    align-self: flex-start;
+}
