@@ -1,0 +1,12 @@
+.wrapper-recommend {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 32px;
+    gap: 30px 10px;
+}
+
+.wrapper-recommend .main-title {
+    width: 100%;
+}
