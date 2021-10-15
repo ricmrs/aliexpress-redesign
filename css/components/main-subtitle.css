@@ -18,13 +18,8 @@
     color: #F03D3F;
 }
 
-.main-subtitle.-time {
+.main-subtitle.-second {
     font-weight: 400;
     font-size: 12px;
     line-height: 20px;
-}
-
-.main-subtitle.-time::after {
-    content: '12h: 45min: 06s';
-    color: #F03D3F;
 }

@@ -1,0 +1,18 @@
+.main-flash {
+    font-size: 9px;
+    line-height: 20px;
+    color: #65C356;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-flash::before {
+    content: url('https://api.iconify.design/clarity/truck-line.svg?color=white');
+    display: block;
+    border: 2px solid #65C356;
+    border-radius: 15px;
+    background-color:#65C356;
+    width: 28px;
+    height: 28px;
+    padding: 4px 4px;
+    box-sizing: border-box;
+}

@@ -12,3 +12,8 @@
     width: 100%;
     margin-bottom: 40px;
 }
+
+.wrapper-offer .main-subtitle.-second::after {
+    content: '12h: 45min: 06s';
+    color: #F03D3F;
+}
