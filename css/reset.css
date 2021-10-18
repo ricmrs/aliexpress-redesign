@@ -56,3 +56,7 @@ input {
 	color: unset;
 	background-color: unset;
 }
+
+button {
+	background-color: transparent;
+}
