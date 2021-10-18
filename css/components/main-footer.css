@@ -1,0 +1,21 @@
+.main-footer {
+    display: flex;
+    background-color: #F7F7F7;
+    padding-left: 60px;
+    padding-top: 20px;
+    padding-bottom: 57px;
+    position: relative;
+}
+
+.main-footer .wrapper-nav {
+    margin-right: 60px;
+}
+
+.main-footer .main-action {
+    margin-right: 20px;
+    transform: translate(20px,5px);
+}
+
+.main-footer .main-action::after {
+    transform: translate(5px,0px);
+}

@@ -1,0 +1,9 @@
+.wrapper-card {
+    position: absolute;
+    left: 843px;
+    top: 115px;
+}
+
+.wrapper-card .icon {
+    margin-right: 20px;
+}
