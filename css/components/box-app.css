@@ -1,0 +1,28 @@
+.box-app {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #3E3E3E;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 16px;
+    height: 65px;
+    position: relative;
+    left: 830px;
+    top: 65px;
+}
+
+.box-app .app {
+    margin-right: 5px;
+}
+
+
+.box-app .app::before {
+    content: url('https://api.iconify.design/logos/apple-app-store.svg?color=%23d5d5d5&height=42');
+    margin-right: 18px;
+    margin-top: 5px;
+}
+
+.box-app .app::after {
+    content: url('https://api.iconify.design/logos/google-play.svg?color=%23d5d5d5&height=32');
+}
