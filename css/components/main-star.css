@@ -3,7 +3,3 @@
     height: 14px;
     width: 14px;
 }
-
-.main-star.-selected {
-    background: url('https://api.iconify.design/codicon/star-full.svg?color=%23F03D3F&height=14') no-repeat center center / contain;
-}

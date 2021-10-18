@@ -50,9 +50,23 @@
 .box-prod .product2 {
     position: absolute;
     top: 45px;
+    left: 5px;
 }
 
 .box-prod .product3 {
     position: absolute;
+    top: 45px;
+    left: 35px;
+}
+
+.box-prod .product4 {
+    position: absolute;
     top: 25px;
+    left: 65px;
+}
+
+.box-prod .product5 {
+    position: absolute;
+    top: 25px;
+    left: 28px;
 }
