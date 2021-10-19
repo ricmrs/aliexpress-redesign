@@ -5,11 +5,17 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 6px;
     position: relative;
+    background-color: #fff;
+    top: 224px;
+    left: 228px;
+    z-index: 2;
+    text-align: start;
+    visibility: hidden;
 }
 
 .box-items .wrapper {
     display: grid;
-    grid-template-columns: repeat(4, auto);
+    grid-template-columns: repeat(4, max-content);
 }
 
 .box-items .main-title {
@@ -22,6 +28,7 @@
     border: 1px solid #3E3E3E;
     position: absolute;
     top: 65px;
+    left: 40px;
 }
 
 .box-items .wrapper-items {

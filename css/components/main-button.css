@@ -19,6 +19,8 @@
     color: #3E3E3E;
     background-color: transparent;
     border: none;
+    width: 140px;
+    padding: 0px;
 }
 
 .main-button.-second::before{
