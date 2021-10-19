@@ -17,4 +17,5 @@
 .main-search::after {
     content: url('https://api.iconify.design/ei/search.svg?color=%238d8b8b&height=25');
     margin-right: 13px;
+    cursor: pointer;
 }

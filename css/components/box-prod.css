@@ -23,6 +23,7 @@
     position: absolute;
     left: 234px;
     top: 8px;
+    cursor: pointer;
 }
 
 .box-prod .main-price {
