@@ -1,9 +1,3 @@
-window.onload = function() {
-    const countdown = 12 * 60 * 60;
-    display = document.querySelector('.wrapper-offer .countdown');
-    startTimer(countdown, display);
-}
-
 function startTimer(duration, display) {
     let timer = duration, hours, minutes, seconds;
     setInterval(function(){
@@ -21,5 +15,12 @@ function startTimer(duration, display) {
         }
     }, 1000);  
 }
+
+window.onload = function() {
+    const countdown = 12 * 60 * 60;
+    display = document.querySelector('.wrapper-offer .countdown');
+    startTimer(countdown, display);
+}
+
 
 
