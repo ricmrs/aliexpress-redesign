@@ -6,6 +6,7 @@
     left: 68px;
     top: 40px;
     visibility: hidden;
+    z-index: 1;
 }
 
 .box-nav .categories {
