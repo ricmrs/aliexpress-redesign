@@ -16,3 +16,7 @@
 .box-nav .categories::after {
     content: url('https://api.iconify.design/ant-design/down-outlined.svg?color=%23f7f7f7&height=14&rotate=270deg');
 }
+
+.box-nav .categories:hover {
+    background-color: #F03D3F;
+}
