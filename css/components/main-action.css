@@ -3,7 +3,10 @@
     color: #D5D5D5;
     font-weight: 400;
     font-size: 12px;
-    
+}
+
+.main-action.-arrow {
+    cursor: pointer;
 }
 
 .main-action.-arrow::after{
