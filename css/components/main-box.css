@@ -8,3 +8,8 @@
     height: 230px;   
     background-color: #fff; 
 }
+
+.main-box .main-button:hover {
+    background-color: #C4C4C4;
+    color: #FFF;
+}
