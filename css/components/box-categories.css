@@ -9,19 +9,6 @@
     z-index: 1;
 }
 
-.box-categories .categories {
-    display: flex;
-    justify-content: space-between;
-    font-weight: 500;
-    line-height: 20px;
-    color: #F7F7F7;
-    padding: 15px 50px;
-}
-
-.box-categories .categories::after {
-    content: url('https://api.iconify.design/ant-design/down-outlined.svg?color=%23f7f7f7&height=14&rotate=270deg');
-}
-
-.box-categories .categories:hover {
+.box-categories .main-categorie:hover {
     background-color: #F03D3F;
 }
