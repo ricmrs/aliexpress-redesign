@@ -2,6 +2,10 @@
     background-color: #D5D5D5;
     width: 356px;
     box-sizing: border-box;
+    position: absolute;
+    left: 68px;
+    top: 40px;
+    visibility: hidden;
 }
 
 .box-nav .categories {
