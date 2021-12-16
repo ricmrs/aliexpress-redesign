@@ -1,12 +1,16 @@
 .main-categorie {
     display: flex;
     justify-content: space-between;
-    font-weight: 500;
-    line-height: 20px;
+    background-color: #D5D5D5;
     color: #F7F7F7;
+    font-weight: 500;
     padding: 15px 50px;
 }
 
 .main-categorie::after {
     content: url('https://api.iconify.design/ant-design/down-outlined.svg?color=%23f7f7f7&height=14&rotate=270deg');
+}
+ 
+.main-categorie:hover {
+    background-color: #F03D3F;
 }

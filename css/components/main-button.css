@@ -13,7 +13,6 @@
 .main-button.-second {
     display: flex;
     align-items: center;
-    line-height: inherit;
     font-weight: 600;
     font-size: 14px;
     color: #3E3E3E;

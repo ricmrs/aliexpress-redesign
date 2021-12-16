@@ -1,14 +1,11 @@
 .main-navigation {
     display: flex;
-    width: 280px;
     justify-content: space-between;
-    margin-right: 5px;
+    width: 280px;
     line-height: 20px;
 }
 
 .main-navigation.-full {
     width: 100%;
     height: 40px;
-    margin-right: 0px;
-    margin-top: 26px;
 }

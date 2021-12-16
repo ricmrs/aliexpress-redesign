@@ -4,7 +4,6 @@
     font-weight: 500;
     font-size: 14px;
     background-color: #F7F7F7;
-    color: #8D8B8B;
     border-radius: 3px;
 }
 
@@ -16,6 +15,15 @@
 
 .main-search::after {
     content: url('https://api.iconify.design/ei/search.svg?color=%238d8b8b&height=25');
-    margin-right: 13px;
+    margin-right: 10px;
     cursor: pointer;
+}
+
+.main-search .search::placeholder {
+    color: #8D8B8B;
+    opacity: 1;
+}
+  
+.main-search .search:-ms-input-placeholder {
+color: #8D8B8B;
 }

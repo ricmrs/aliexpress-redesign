@@ -4,3 +4,7 @@
     padding: 52px 40px 29px 40px;
     flex-wrap: wrap;
 }
+
+.main-header .main-navigation.-full {
+    margin-top: 26px;
+}

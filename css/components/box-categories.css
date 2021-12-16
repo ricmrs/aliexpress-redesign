@@ -1,5 +1,4 @@
 .box-categories {
-    background-color: #D5D5D5;
     width: 356px;
     box-sizing: border-box;
     position: absolute;
@@ -7,8 +6,4 @@
     top: 40px;
     visibility: hidden;
     z-index: 1;
-}
-
-.box-categories .main-categorie:hover {
-    background-color: #F03D3F;
 }

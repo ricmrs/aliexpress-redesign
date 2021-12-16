@@ -1,7 +1,5 @@
 .box-items {
-    width: 688px;
     padding: 33px 57px 33px 40px;
-    box-sizing: border-box;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 6px;
     position: relative;
@@ -9,7 +7,6 @@
     top: 224px;
     left: 228px;
     z-index: 2;
-    text-align: start;
     visibility: hidden;
 }
 
@@ -22,13 +19,9 @@
     margin-bottom: 23px;
 }
 
-.box-items::before {
-    content: '';
-    width: calc(100% - 100px);
+.box-items .main-title + .hr {
     border: 1px solid #3E3E3E;
-    position: absolute;
-    top: 65px;
-    left: 40px;
+    transform: translateY(-15px);
 }
 
 .box-items .wrapper-items {
