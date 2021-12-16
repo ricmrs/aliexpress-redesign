@@ -1,13 +1,19 @@
-const star = window.document.querySelectorAll('.main-star');
-
-for(i = 0; i < star.length; i++){
-    star[i].style = "background: url('https://api.iconify.design/codicon/star-full.svg?color=%23c4c4c4&height=14') no-repeat center center / contain;";
-    star[i].addEventListener('click', a =>{
-        if(a.target.attributes.style.textContent == "background: rgba(0, 0, 0, 0) url(\"https://api.iconify.design/codicon/star-full.svg?color=%23c4c4c4&height=14\") no-repeat scroll center center / contain;"){
-            a.target.style = "background: url('https://api.iconify.design/codicon/star-full.svg?color=%23F03D3F&height=14') no-repeat center center / contain;";
-        }else{
-            a.target.style = "background: url('https://api.iconify.design/codicon/star-full.svg?color=%23c4c4c4&height=14') no-repeat center center / contain;";
+function starRate(event){
+    const $origin = event.target
+    const $siblings = $origin.parentNode.children
+    const white = "url('https://api.iconify.design/codicon/star-full.svg?color=%23c4c4c4&height=14') center center / contain no-repeat"
+    const orange = "url('https://api.iconify.design/codicon/star-full.svg?color=%23F03D3F&height=14') center center / contain no-repeat"
+    rate($siblings, 4, white)
+    for(i = 0; i <= 4; i++){
+        if($origin === $siblings[i]){
+            rate($siblings, i, orange);
+            return;
         }
-    })    
+    }
 }
 
+function rate(stars, total, color) {
+    for(i = 0; i <= total; i++){
+        stars[i].style.background = color;
+    }
+}
