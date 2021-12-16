@@ -1,3 +1,7 @@
+.prod-description {
+    position: relative;
+}
+
 .prod-description .main-flash {
     position: absolute;
     left: 202px;
