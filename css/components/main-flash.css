@@ -11,7 +11,6 @@
 
 .main-flash::before {
     content: url('https://api.iconify.design/clarity/truck-line.svg?color=white');
-    display: block;
     border: 2px solid #65C356;
     border-radius: 15px;
     background-color:#65C356;
